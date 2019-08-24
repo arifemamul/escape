@@ -1,0 +1,70 @@
+@font-face{
+	font-family: BrandonGrotesqe-Bold;
+	src:url(../font/BrandonGrotesqe-Bold.ttf);
+}
+@font-face {
+  font-family: BrandonLight;
+  src: url(../fonts/BrandonGrotesque-Light.ttf);
+}
+@font-face {
+  font-family: BrandonMedium;
+  src: url(../fonts/BrandonGrotesque-Medium.ttf);
+}
+/*font end*/
+*{
+	margin: 0;
+	padding:0;
+}
+/*header start*/
+header{
+	font-family: sans-serif;
+}
+/*slider start*/
+.slider{
+
+}
+.mine{
+	margin-bottom: 80px;
+}
+.mine p{
+	font-family:BrandonLight;
+	font-family: sans-serif;
+	font-size: 30px;
+	color: white; 
+}
+.mine h1{
+	font-family: BrandonGrotesqe-Bold;
+	font-family: sans-serif;
+	font-size: 70px;
+	margin-bottom: 60px;
+}
+.mine_btn{
+	border-color:white;
+	color: white;
+	padding: 15px 40px;
+}
+.mine_btn:hover{
+	background-color: #7690c5;
+	color:white;
+	border-color: #7690c5;
+}
+/*slider end*/
+/*nav start*/
+.menu_bar{
+	padding-top: 15px;
+}
+.menu ul li a{
+	font-family: BrandonMedium;
+	font-family: sans-serif;
+	font-size: 18px;
+	color: white !important;
+	transition: 0.3s;
+	padding: 0 15px !important;
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color:#7690c5 !important;
+}
+/*nav end*/
